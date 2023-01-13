@@ -267,11 +267,9 @@ function init(
   if (options.target) {
     if (options.hydrate) {
       const nodes = children(options.target);
-      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
       $$.fragment && $$.fragment.l(nodes);
       nodes.forEach(detach);
     } else {
-      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
       $$.fragment && $$.fragment.c();
     }
     if (options.intro) transition_in(component.$$.fragment);

@@ -1,9 +1,0 @@
-{
-  "version": "v1",
-  "packages": {
-    "svelte-app-repro": {
-      "signature": "5860a5b54c57ca05e16ac6cbc7588783",
-      "file": true
-    }
-  }
-}
