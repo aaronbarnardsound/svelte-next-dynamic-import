@@ -1,0 +1,14 @@
+{
+  "name": "svelte-app-repro",
+  "version": "1.0.7",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear"
+  },
+  "dependencies": {
+    "sirv-cli": "^2.0.0"
+  },
+  "module": "dist/main.js",
+  "yalcSig": "5860a5b54c57ca05e16ac6cbc7588783"
+}
